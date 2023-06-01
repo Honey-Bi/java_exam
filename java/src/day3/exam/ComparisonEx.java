@@ -17,7 +17,7 @@ public class ComparisonEx {
 			b = scan.nextInt();	
 		} catch (InputMismatchException e) {
 			System.out.println("입력된 값이 정수가 아닙니다.");
-		}
+		} 
 		
 		switch (operator) {		
 			case ">" -> System.out.println(a > b);
