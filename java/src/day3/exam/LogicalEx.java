@@ -16,5 +16,4 @@ public class LogicalEx {
 		System.out.println(c==b & c==b);
 		
 	}
-
 }
