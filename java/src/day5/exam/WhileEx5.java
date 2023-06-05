@@ -2,7 +2,7 @@ package day5.exam;
 
 import java.util.Scanner;
 
-public class WhileEX5 {
+public class WhileEx5 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);		
@@ -13,8 +13,10 @@ public class WhileEX5 {
 			System.out.println("1. Start");
 			System.out.println("2. Save");
 			System.out.println("3. Exit");
+			System.out.print("Select Menu : ");
 			
 			select = sc.nextInt();
+			
 			switch (select) {
 				case 1: 
 					System.out.println("Program Start");
