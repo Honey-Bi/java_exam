@@ -9,7 +9,7 @@ public class ScoreAverageEx {
 		
 		int korean = sc.nextInt(), english = sc.nextInt(), math = sc.nextInt();
 		
-		System.out.println((korean + english + math) / 3);	
+		System.out.println((double)((korean + english + math) / 3));	
 		
 		sc.close();
 	}
