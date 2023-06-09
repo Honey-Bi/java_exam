@@ -66,7 +66,7 @@ public class StarEx {
 		
 		
 		for (int i = 0; i < 7; i++) {
-			if (i <= 7/2) {
+			if (i <= (7)/2) {
 				for (int j = 1; j <= 3-i; j++) {
 					System.out.print(' ');
 				}
@@ -74,8 +74,11 @@ public class StarEx {
 					System.out.print('*');
 				}
 			} else {
-				for (int j = i; j > 7-i; j--) {
+				for (int j = 0; j < i-3; j++) {
 					System.out.print(' ');
+				}
+				for(int j = 0; j <= 2*(7-i)-2; j++) {
+					System.out.print('*');
 				}
 				
 			}
