@@ -16,5 +16,22 @@ public class MethodArithmeticEx {
 	}
 	
 	public static void op(int num1, int num2, char op) {
+		switch (op) {
+		case '+':
+			System.out.println(num1 + num2);
+			break;
+		case '-':
+			System.out.println(num1 - num2);
+			break;
+		case '/':
+			System.out.println((double)num1 / (double)num2);
+			break;
+		case '*':
+			System.out.println(num1 * num2);
+			break;
+		case '%':
+			System.out.println(num1 % num2);
+			break;
+		}
 	}
 }
